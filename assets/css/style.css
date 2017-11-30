@@ -1,0 +1,373 @@
+html, body {
+  font-family: 'Roboto Slab', sans-serif;
+  background-image: url("../images/dust_scratches.png");
+  height: 100%;
+  margin: 0;
+  line-height: 150%;
+}
+
+header{
+  height: 100px;
+  background: #ffffff;
+  margin: 0;
+  border-bottom: 2px solid #cccccc;
+}
+
+.name {
+  height: 100px;
+  background: #4aaaa5;
+  color: #fff;
+  margin-left: 200px;
+  padding: 0 50px;
+  float: left;
+}
+
+.nav {
+  color: #777777;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-right: 200px;
+  float: right;
+}
+
+.content-wrapper {
+  min-height: 100%;
+  margin-bottom: 50px;
+}
+
+.content-left {
+  padding: 20px;
+  width: 606px;
+  background: #fff;
+  border: 2px solid #dddddd;
+  float: left;
+  margin: 50px 40px 20px 200px;
+}
+
+.content-right {
+  padding: 20px;
+  width: 226px;
+  background: #fff;
+  border: 2px solid #dddddd;
+  float: left;
+  margin: 50px auto 50px 0;
+}
+
+h1 {
+  font-size: 2em;
+  padding: 10px 0;
+  font-family: 'Roboto Slab', sans-serif;
+}
+
+.name h1 {
+  color: #fff;
+  padding-top: 30px;
+}
+
+.content-left h1 {
+  color: #4aaaa5;
+}
+
+h2 {
+  color: #4aaaa5;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 10px 0;
+  font-family: 'Patua One', sans-serif;
+}
+
+p {
+  color: #777777;
+  font-size: 18px;
+  line-height: 150%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 2px solid #ddd;
+}
+
+a {
+  color: #777777;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.myimage {
+  float: left;
+  padding: 20px 20px 10px 0;
+}
+
+.form-input {
+  width: 100%;
+  height: 25px;
+  border: solid 1px #888;
+  margin-bottom: 20px;
+}
+
+.textarea-input {
+  width: 100%;
+  height: 80px;
+  border: solid 1px #888;
+}
+
+.button {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer {
+  background: #666666;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 30px;
+  height: 50px;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.textbox {
+  position: relative;
+  top: 150px;
+  height: 30px;
+  padding-top: 10px;
+  background: #4aaaa5;
+  display: block;
+}
+
+.box-set {
+  height: 750px;
+}
+
+.box {
+  position: relative;
+  height: 200px;
+  width: 280px;
+  background: #4aaaa5;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.box1 {
+  top: 10px;
+  left: 5px;
+  background-image: url("../images/airplane.jpg");
+}
+
+.box2 {
+  top: -190px;
+  right: -320px;
+  background-image: url("../images/drop.jpg");
+}
+
+.box3 {
+  top: -140px;
+  left: 5px;
+  background-image: url("../images/abstract_trivia.jpg");
+}
+
+.box4 {
+  top: -340px;
+  right: -320px;
+  background-image: url("../images/cat.jpg");
+}
+
+.box5 {
+  top: -290px;
+  left: 5px;
+  background-image: url("../images/mobile.jpg");
+}
+
+/* Desktop */
+@media screen and (max-width: 980px){
+
+  .content-wrapper {
+    width: 100%;
+    margin: auto;
+  }
+
+  .content-left {
+    width: 55%;
+    margin: 10px 0 10px 30px;
+  }
+
+  .content-right {
+    width: 25%;
+    margin: 10px auto 0 20px;
+  }
+
+  .name {
+    margin: 0 40px 0 30px;
+    padding: auto;
+  }
+
+  .nav {
+    margin-right: 40px;
+  }
+
+  .box-set {
+    width: 90%;;
+  }
+
+  .box {
+    height: 200px;
+    width: 50%;
+  }
+
+  .box2 {
+    top: -190px;
+    right: -270px;
+  }
+
+  .box4 {
+    top: -340px;
+    right: -270px;
+  }
+
+}
+
+/* Tablet */
+@media screen and (max-width: 768px){
+
+  html, body {
+    line-height: 110%;
+  }
+
+  header {
+    height: 14%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    padding: 2px 0;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    padding: 5px 0;
+  }
+
+  .name {
+    margin: 0 auto 0 10px;
+    padding: 0 auto;
+    height: 100%;
+  }
+
+  .nav {
+    margin-right: 10px;
+  }
+
+  .content-wrapper {
+    width: 100%;
+  }
+
+  .content-left {
+    width: 92%;
+    margin: 10px;
+  }
+
+  .content-right {
+    width: 92%;
+    margin: 10px;
+  }
+
+  .footer {
+    height: 6%;
+  }
+
+  .box-set {
+    width: 80%;;
+  }
+
+  .box {
+    height: 200px;
+    width: 45%;
+  }
+
+}
+
+/* Phone */
+@media screen and (max-width: 640px){
+
+  html, body {
+    line-height: 110%;
+  }
+
+  header {
+    position: static;
+    height: 12%;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    padding: 1px 0;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    padding: 5px 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .name {
+    margin: 0 auto 0 10px;
+    padding: 0 10px 0 10px;
+    height: 100%;
+  }
+
+  .nav {
+    margin-right: 10px;
+  }
+
+  .content-wrapper {
+    width: 100%;
+  }
+
+  .content-left {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .content-right {
+    width: 90%;
+    margin: 10px;
+  }
+
+  .footer {
+    height: 5%;
+  }
+
+  .box-set {
+    width: 90%;;
+  }
+
+  .box {
+    height: 200px;
+    width: 50%;
+  }
+
+}
