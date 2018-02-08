@@ -171,19 +171,19 @@ a:hover {
 .box1 {
   top: 10px;
   left: 5px;
-  background-image: url("../images/airplane.jpg");
+  background-image: url("../images/hangman.gif");
 }
 
 .box2 {
   top: -190px;
   right: -320px;
-  background-image: url("../images/drop.jpg");
+  background-image: url("../images/rail.jpg");
 }
 
 .box3 {
   top: -140px;
   left: 5px;
-  background-image: url("../images/abstract_trivia.jpg");
+  background-image: url("../images/robot.jpg");
 }
 
 .box4 {
