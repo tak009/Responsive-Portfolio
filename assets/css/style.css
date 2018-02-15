@@ -183,13 +183,13 @@ a:hover {
 .box3 {
   top: -140px;
   left: 5px;
-  background-image: url("../images/robot.jpg");
+  background-image: url("../images/robot1.jpg");
 }
 
 .box4 {
   top: -340px;
   right: -320px;
-  background-image: url("../images/cat.jpg");
+  background-image: url("../images/terminal.jpg");
 }
 
 .box5 {
