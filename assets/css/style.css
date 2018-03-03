@@ -195,7 +195,13 @@ a:hover {
 .box5 {
   top: -290px;
   left: 5px;
-  background-image: url("../images/mobile.jpg");
+  background-image: url("../images/shop.jpg");
+}
+
+.box6 {
+  top: -490px;
+  right:-320px;
+  background-image: url("../images/friends.jpg");
 }
 
 /* Desktop */
